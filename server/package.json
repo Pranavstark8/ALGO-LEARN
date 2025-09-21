@@ -1,0 +1,37 @@
+{
+  "name": "algolearn-server",
+  "version": "1.0.0",
+  "description": "AlgoLearn Backend Server with Authentication and Sort History",
+  "main": "test-server.js",
+  "scripts": {
+    "start": "node test-server.js",
+    "dev": "nodemon test-server.js",
+    "server": "node server.js",
+    "test-server": "node test-server.js",
+    "prod": "NODE_ENV=production node test-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "npm install && echo 'Server dependencies installed successfully!'",
+    "clean": "rm -rf node_modules package-lock.json && npm install"
+  },
+  "keywords": [
+    "sorting",
+    "algorithms",
+    "visualization",
+    "education",
+    "express",
+    "mongodb",
+    "jwt",
+    "authentication"
+  ],
+  "author": "AlgoLearn Team",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1"
+  }
+}
